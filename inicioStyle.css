@@ -1,0 +1,23 @@
+/* Estilos específicos para la página de inicio */
+
+body#inicio .banner {
+    background-image: url('inicio-banner.jpg'); /* Cambia la imagen de fondo */
+}
+
+body#inicio .banner h2 {
+    font-size: 42px; /* Cambia el tamaño del título */
+}
+
+body#inicio .banner p {
+    font-size: 18px; /* Cambia el tamaño del texto */
+}
+
+body#inicio .about {
+    background-color: #fff; /* Cambia el color de fondo */
+}
+
+body#inicio .about p {
+    color: #333; /* Cambia el color del texto */
+}
+
+/* Otros estilos específicos para la página de inicio... */
