@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Empresa de Informática</title>
+    <link rel="stylesheet" href="\genaralStyle.css">
+    <link rel="stylesheet" href="\contactoStyle.css">
+</head>
+<body id="contacto">
+    <header>
+        <h1>Empresa de Informática</h1>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes ponerte en contacto con nosotros a través de los siguientes medios:</p>
+        <ul>
+            <li>Email: info@empresa.com</li>
+            <li>Teléfono: +123456789</li>
+            <li>Dirección: Calle de la Tecnología, 123, Ciudad, País</li>
+        </ul>
+        <p>O puedes completar el siguiente formulario:</p>
+        <form action="enviar.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <button type="submit" class="btn">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Empresa de Informática. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

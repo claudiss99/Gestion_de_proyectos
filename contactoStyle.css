@@ -1,0 +1,67 @@
+/* Estilos específicos para la página de contacto */
+
+#contacto {
+    background-color: #f9f9f9;
+}
+
+.contacto {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contacto h2 {
+    color: #333;
+}
+
+.contacto p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.contacto ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.contacto ul li {
+    margin-bottom: 10px;
+}
+
+.contacto form {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.contacto form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contacto form input[type="text"],
+.contacto form input[type="email"],
+.contacto form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contacto form textarea {
+    resize: vertical;
+}
+
+.contacto form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contacto form button:hover {
+    background-color: #0056b3;
+}
