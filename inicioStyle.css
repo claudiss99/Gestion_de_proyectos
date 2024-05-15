@@ -1,7 +1,7 @@
 /* Estilos específicos para la página de inicio */
 
 body#inicio .banner {
-    background-image: url('inicio-banner.jpg'); /* Cambia la imagen de fondo */
+    background-image: url(../img/banner.jpg); /* Cambia la imagen de fondo */
 }
 
 body#inicio .banner h2 {
